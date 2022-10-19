@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.jumbotron {
+    min-height: 30vh;
+    width: 100%;
+    background-position: top;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("../../Projects/Starting/resources/images/man\ looking\ at\ laptop.png");
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+}
+
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 3.875rem;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* Colors Section */
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+}
+
+h3 {
+    font-size: 1.75em;
+    text-decoration: underline;
+    color: #000;
+    padding: 15px 0;
+}
+
+h4 {
+    margin-top: 25px;
+}
+
+.container {
+    border: 3px solid #a2a2a6;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    min-height: 100px;
+    justify-content:space-evenly;
+    border: 1px solid #000;
+    margin: 5px;
+    text-align: center;
+}
+
+.midnight-blue {
+    background-color: #07223D;
+    color: #fff;
+}
+
+.grass-green {
+    background-color: #7ED957;
+    color: #000;
+}
+
+.white {
+    background-color: #fff;
+    font: #000;
+}
+
+.neon-green {
+    background-color: #89FF54;
+    color: #07223D;
+}
+
+.sky-blue {
+    background-color: #b3e4f8;
+    color: #000;
+}
+
+.black {
+    background-color: #000;
+    color: #fff;
+}
+
+@media(max-width: 800px) {
+    .text-box h1 {
+        font-size: 1.80rem;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .text-box {
+        width: 90%;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        text-align: center;
+    }
+
+    nav img {
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .color-container {
+        display: flex;
+        justify-content: space-between;
+        overflow: auto;
+        margin-top: 5px;
+    }
+
+    h4 {
+        font-size: 0.75rem;
+    }
+
+    p {
+        font-size: 0.75rem;
+    }
+}
+
