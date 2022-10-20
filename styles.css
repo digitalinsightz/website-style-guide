@@ -12,7 +12,7 @@ body {
     width: 100%;
     background-position: top;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url("../../Projects/Starting/resources/images/man\ looking\ at\ laptop.jpg");
+    url("./resources/images/man\ looking\ at\ laptop.jpg");
     background-size: cover;
     position: relative;
 }
@@ -129,7 +129,7 @@ h3 {
         width: 100%;
         background-position: top;
         background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-        url("../../Projects/Starting/resources/images/man\ looking\ at\ laptop.jpg");
+        url("./resources/images/man\ looking\ at\ laptop.jpg");
         background-size: cover;
         position: relative;
     }
