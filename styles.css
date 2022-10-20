@@ -53,8 +53,11 @@ nav img {
 h2 {
     text-align: center;
     font-weight: bold;
-    color: #000;
+    color: #fff;
     font-size: 1.75rem;
+    width: 15%;
+    padding: 20px;
+    background-color:#07223D
 }
 
 h3 {
@@ -62,12 +65,13 @@ h3 {
     text-decoration: underline;
     color: #000;
     padding: 15px 0;
+    text-align: center;
 }
 
 .container {
     border: 3px solid #a2a2a6;
     padding: 10px;
-    margin: 0 auto;
+    margin: 15px;
 }
 
 .color-container {
@@ -138,6 +142,17 @@ h3 {
 
     nav img {
         text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+        font-size: 1.75rem;
+        width: 75%;
+        margin: auto;
+        padding: 20px;
+        background-color:#07223D
     }
 
     h3 {
