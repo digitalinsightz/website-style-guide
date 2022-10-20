@@ -124,6 +124,16 @@ h3 {
 }
 
 @media(max-width: 800px) {
+    .jumbotron {
+        min-height: 30vh;
+        width: 100%;
+        background-position: top;
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+        url("../../Projects/Starting/resources/images/man\ looking\ at\ laptop.png");
+        background-size: cover;
+        position: relative;
+    }
+
     .text-box h1 {
         font-size: 1.80rem;
         text-align: center;
